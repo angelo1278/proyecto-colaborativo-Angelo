@@ -1,0 +1,172 @@
+Manual de Angelo: Manual de Introducción a GitHub para Desarrollo Colaborativo
+Objetivos del Manual:
+Comprender el flujo de trabajo básico de desarrollo colaborativo utilizando Git y GitHub.
+Familiarizarse con la creación y gestión de repositorios remotos en GitHub.
+Aprender a crear, cambiar y fusionar ramas para el desarrollo de funcionalidades aisladas.
+Utilizar el control de versiones para rastrear y gestionar cambios en el código.
+Experimentar con la colaboración a través de GitHub, simulando el trabajo en equipo.
+Índice:
+Configuración Inicial
+Creación de cuenta en GitHub
+Instalación de Git y configuración
+Creación del Repositorio Remoto
+Clonación del Repositorio
+Creación de Ramas para Funcionalidades
+Realización de Cambios y Commits
+Publicación de Ramas Locales
+Creación de Pull Requests
+Revisión de Pull Requests
+Fusión de Pull Requests
+Sincronización de la Rama Principal Local
+Resolución de Conflictos
+1. Configuración Inicial
+a. Creación de Cuenta en GitHub
+Dirígete a GitHub.
+Haz clic en Sign Up para crear una nueva cuenta.
+Completa el formulario con tu nombre, correo electrónico y contraseña.
+Sigue las instrucciones para verificar tu correo y activar tu cuenta.
+b. Instalación de Git y Configuración
+Instalar Git:
+Entra a Git Downloads y selecciona la versión correspondiente para tu sistema operativo.
+Sigue los pasos de instalación.
+Configurar Git:
+Después de instalar Git, abre una terminal y configura tu nombre de usuario y correo electrónico:
+bash
+Copiar
+Editar
+git config --global user.name Tu Nombre
+git config --global user.email tu_correo@dominio.com
+2. Creación del Repositorio Remoto
+Uno de los participantes se encargará de iniciar el proyecto.
+Ingresa a GitHub y haz clic en el botón New para crear un nuevo repositorio.
+Asigna un nombre descriptivo al repositorio (por ejemplo, proyecto-colaborativo).
+Inicializa el repositorio con un archivo README.md donde se describa brevemente el proyecto.
+Configura el repositorio como público o privado según sea necesario.
+Una vez creado, comparte la URL del repositorio con los demás participantes.
+3. Clonación del Repositorio
+Cada participante debe clonar el repositorio remoto a su máquina local.
+Copia la URL del repositorio desde GitHub.
+En la terminal, usa el siguiente comando para clonar el repositorio:
+bash
+Copiar
+Editar
+git clone <URL_del_repositorio>
+Ejemplo:
+bash
+Copiar
+Editar
+git clone https://github.com/tu_usuario/proyecto-colaborativo.git
+Cambia al directorio del repositorio:
+bash
+Copiar
+Editar
+cd proyecto-colaborativo
+4. Creación de Ramas para Funcionalidades
+Cada participante creará su propia rama para trabajar en una funcionalidad específica.
+En la terminal, crea una nueva rama:
+bash
+Copiar
+Editar
+git checkout -b <nombre_de_la_rama>
+Ejemplo:
+bash
+Copiar
+Editar
+git checkout -b feature/pagina-principal
+Los nombres de las ramas deben ser descriptivos y reflejar el propósito de la funcionalidad, como feature/formulario-contacto o fix/error-login.
+5. Realización de Cambios y Commits
+Realiza los cambios en los archivos del proyecto o agrega nuevos archivos.
+Agrega los cambios al área de preparación:
+bash
+Copiar
+Editar
+git add .
+Realiza un commit con un mensaje descriptivo:
+bash
+Copiar
+Editar
+Tú dijiste:
+resumelo 
+ChatGPT Plus
+Manual Resumido: Introducción a GitHub para Desarrollo Colaborativo
+Objetivos:
+Comprender el flujo de trabajo básico con Git y GitHub.
+Aprender a crear y gestionar repositorios remotos.
+Trabajar con ramas para desarrollar funcionalidades aisladas.
+Realizar control de versiones y colaborar en equipo.
+Pasos Clave:
+Configuración Inicial:
+Cuenta en GitHub: Crear una cuenta en GitHub.
+Instalar Git: Descargar e instalar Git desde git-scm.
+Configurar Git: Configurar nombre y correo en Git:
+bash
+Copiar
+Editar
+git config --global user.name Tu Nombre
+git config --global user.email tu_correo@dominio.com
+Creación del Repositorio Remoto (Por el iniciador del proyecto):
+Crear un repositorio en GitHub (público o privado).
+Incluir un archivo README.md con una breve descripción del proyecto.
+Compartir la URL del repositorio con los demás.
+Clonación del Repositorio (Por cada participante):
+Clonar el repositorio con:
+bash
+Copiar
+Editar
+git clone <URL_del_repositorio>
+Cambiar al directorio del repositorio clonado:
+bash
+Copiar
+Editar
+cd proyecto-colaborativo
+Creación de Ramas para Funcionalidades:
+Crear una rama para trabajar en una funcionalidad:
+bash
+Copiar
+Editar
+git checkout -b <nombre_de_la_rama>
+Ejemplo: git checkout -b feature/pagina-principal.
+Realización de Cambios y Commits:
+Realizar cambios en los archivos del proyecto.
+Agregar los cambios con:
+bash
+Copiar
+Editar
+git add .
+Realizar un commit con un mensaje claro:
+bash
+Copiar
+Editar
+git commit -m Descripción de los cambios
+Publicación de Ramas Locales:
+Subir la rama local al repositorio remoto con:
+bash
+Copiar
+Editar
+git push origin <nombre_de_la_rama>
+Creación de Pull Requests:
+Crear un Pull Request en GitHub desde tu rama hacia la rama principal (main o master).
+Incluir una descripción clara del Pull Request.
+Revisión de Pull Requests:
+Revisión por otros participantes, dejando comentarios y sugerencias en GitHub.
+Fusión de Pull Requests:
+El iniciador del proyecto o el mantenedor fusionará los Pull Requests aprobados.
+Sincronización de la Rama Principal Local:
+Mantener tu rama local actualizada con los cambios de la rama principal:
+bash
+Copiar
+Editar
+git checkout main
+git pull origin main
+Resolución de Conflictos:
+Si hay conflictos durante la fusión, resolverlos manualmente, hacer commit y luego subir los cambios.
+Entregables Finales:
+Repositorio con archivo README.md.
+Varias ramas con funcionalidades desarrolladas.
+Commits y Pull Requests claros.
+Revisión de código mediante comentarios en Pull Requests.
+Criterios de Evaluación:
+Creación y gestión de repositorios.
+Uso adecuado de ramas.
+Control de versiones eficiente.
+Colaboración activa a través de GitHub
