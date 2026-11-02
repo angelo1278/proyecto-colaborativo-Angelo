@@ -1,6 +1,6 @@
 # Phishing y Documentos Maliciosos
 
-![Phishing case overview](phishing-docs-1.png)
+![Phishing case overview](12.jpg)
 
 ## Escenario
 Este proyecto se basa en actividades prácticas de laboratorio enfocadas en investigaciones de phishing y análisis de documentos maliciosos en un entorno controlado.
@@ -24,7 +24,7 @@ El objetivo fue investigar correos electrónicos y archivos sospechosos, identif
 - Me enfoqué en identificar comportamientos sospechosos, métodos de entrega y posibles indicadores de compromiso
 - Practiqué la documentación de hallazgos de manera clara y concisa
 
-![Phishing investigation details](../../assets/phishing-docs-2.png)
+![Phishing investigation details](13.jpg)
 
 ## Resultado
 Este proyecto me ayudó a mejorar mi flujo de trabajo de investigación de phishing y mi comprensión de los ataques basados en documentos maliciosos en un entorno de laboratorio.
