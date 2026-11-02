@@ -1,6 +1,6 @@
 # SOC Alert Triage
 
-![SOC alert overview](../../assets/soc-triage-1.png)
+![SOC alert overview](triage-soc-1.png)
 
 ## Escenario
 Este proyecto se basa en la práctica de investigación de alertas de SOC en Let's Defend.
@@ -24,7 +24,7 @@ El objetivo fue revisar las alertas, validar la actividad sospechosa, recopilar 
 - Me enfoqué en comprender si la alerta representaba una amenaza real o una actividad benigna
 - Mejoré la forma de documentar hallazgos y de cerrar o escalar casos según el contexto
 
-![Closed alert with analyst note](../../assets/soc-triage-2.png)
+![Closed alert with analyst note](triage-soc-2.png)
 
 ## Resultado
 Este proyecto me ayudó a fortalecer mi enfoque de triaje en SOC y a mejorar mi capacidad para investigar alertas de manera estructurada y práctica.
